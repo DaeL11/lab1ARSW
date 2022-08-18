@@ -24,7 +24,7 @@
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?.
    ![](./img/media/imagen2.png)
 
-   La salida cambia debido a que mediante start() se ejecutan los tres hilos a la vez sin esperar que un hilo termine para empezar otro. Por otro lado, con run() se le asigna un tiempo aleatorio a cada hilo para cumplir con su tarea por lo que la salida es en orden caso contrario que pasa con start().
+   La salida cambia debido a que mediante start() se ejecutan los tres hilos a la vez sin esperar que un hilo termine para empezar otro. Por otro lado, con run() se le asigna un tiempo aleatorio a cada hilo para cumplir con su tarea por lo que la salida es en orden. Mientras que pasa lo contrario con start().
 
 **Parte II - Ejercicio Black List Search**
 
